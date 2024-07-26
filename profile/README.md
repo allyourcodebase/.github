@@ -33,7 +33,9 @@ One last thing to note: for us to be able to archive our repository, your integr
 of our `build.zig` must not add more sytem dependencies than our version. So, for example, 
 if our packaged version is able to depend on zstd via [allyourcodebase/zstd](https://github.com/allyourcodebase/zstd),
 then we kindly ask you either keep depending on it (until its `build.zig` gets upstreamed)
-or that you at least expose a flag to allow us to continue to do so.
+or that you take advantage of
+[System Library Integration](https://ziglang.org/download/0.12.0/release-notes.html#Ability-to-Declare-Optional-System-Library-Integration)
+to give the user the choice.
 
 Tha said, you're obviously welcome to upstream any build code as you see fit even if 
 you don't plan to keep depending on other packages via the Zig build system. We'll still be happy
