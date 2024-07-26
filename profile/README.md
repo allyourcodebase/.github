@@ -1,5 +1,5 @@
 ## All Your Codebase
-...are belong to us, but we'd also be delighted to give them back!
+...are belong to Ziguanas, but we'd also be delighted to give them back!
 
 ## What is this organization?
 We package C/C++ projects for the Zig build system so that you can reliably 
