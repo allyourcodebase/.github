@@ -2,7 +2,7 @@
 ...[are belong to Ziguanas](https://www.youtube.com/watch?v=qItugh-fFgg), but we'd also be delighted to give them back!
 
 ## What is this organization?
-We package C/C++ projects for the Zig build system so that you can reliably 
+We package C/C++ projects for the [Zig build system](https://ziglang.org/learn/build-system/) so that you can reliably 
 compile (and cross-compile!) them with ease.
 
 This both provides convenience for users of the Zig compiler toolchain and 
@@ -27,7 +27,7 @@ you need from our repos.**
 If you decide to do so, please let us know by opening an Issue so that we can 
 archive our repo and point people to your upstream. Feel also free to use our repos' Issues 
 section to ask questions about how to integrate everything correctly in your project 
-(say, because we didn't implement a secondary build step for example).
+(say, maybe because we didn't implement a secondary build step for example).
 
 One last thing to note: for us to be able to archive our repository, your integration 
 of our `build.zig` must not add more sytem dependencies than our version. So, for example, 
