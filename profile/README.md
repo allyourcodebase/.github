@@ -47,7 +47,7 @@ We use two main strategies:
 1. Add the upstream project as a dependency (in `build.zig.zon`) and define the corresponding `build.zig` script in our repo.
 2. Fork the upstream project (optionally remove other -- now useless :^) -- build scripts), add Zig build scripts to it and apply any necessary patch to the original project. This last part is usually not necessary but some build steps might benefit by making some config scripts and such more amenable to be used by the Zig build system. One example of that would be to have scripts accept an output path as an argument instead of hardcoding where their output goes (this is very useful to integrate properly with Zig build cache).
 
-If you're a maintainer of the upstream project, (1) shows clearly that you will only need two files (`build.zig`, `build.zig.zon`) but it will up to you to clean up all other build scripts and possibly improve the build script as described above, while (2) will require you to be a bit more careful when upstreaming the work but everything will have been done for you more thoroughly.
+If you're a maintainer of the upstream project, (1) shows clearly that you will only need two files (`build.zig`, `build.zig.zon`) but it will up to you to clean up all other build scripts and possibly improve our Zig build script as described above, while (2) will require you to be a bit more careful when upstreaming the work but everything will have been done for you more thoroughly (although you still have the option to just take the Zig build script files and manually review how to integrate them in your upstream project)
 
 ## I want to contribute a repository, how can I do it?
 
