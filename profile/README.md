@@ -56,8 +56,8 @@ Ping [kristoff](https://github.com/kristoff-it) and ask to be added to the organ
 Here are some ground rules to be able to contribute a repo:
 
 1. Your repo must have a license for your code (the new `build.zig` file) and it must be at least as permissive as the original project's license (to make things simple you can just use MIT and will never be wrong).
-2. The repo should pakage the original C/C++ project without adding extra Zig-specific stuff like bindings, for example.  
-You are welcome to put bindings in a separate repo owned directly by you.
+2. Your repo must pakage the original C/C++ project without adding extra Zig-specific stuff like bindings, for example.  
+   You are welcome to put bindings in a separate repo owned directly by you.
 3. You must target the latest tagged version of Zig.
 4. When porting the original project, you should use the first strategy (buld.zig + pristine tarball) and only turn to the second one (forking the full project) if:
    - You need to patch the original source code for it to build correctly
@@ -65,5 +65,7 @@ You are welcome to put bindings in a separate repo owned directly by you.
      - An example of this last point would be changing project-specific build tools (eg asset processing tools, like image optimizers) that hardcode an output path (usually cwd)
        to instead accept an output argument in order to make them better citizens of the Zig build (eco)system.
 5. You must add a CI job that guarantees `zig build` succeeds (you can copy the script from allyourcodebase/AFLplusplus for example). 
-6. You have interest in doing occasional maintainership work to update your build script when a new version of the upstream project is released.
+6. You must have interest in doing occasional maintainership work to update your build script when a new version of the upstream project is released.
+
+Once you're done with the checklist above, please give your repo an appropriate set of tags for ease of discoverabilty (eg `zig`, `zig-package`).
 
