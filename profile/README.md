@@ -49,7 +49,7 @@ We use two main strategies:
 
 If you're a maintainer of the upstream project, (1) shows clearly that you will only need two files (`build.zig`, `build.zig.zon`) but it will up to you to clean up all other build scripts and possibly improve our Zig build script as described above, while (2) will require you to be a bit more careful when upstreaming the work but everything will have been done for you more thoroughly (although you still have the option to just take the Zig build script files and manually review how to integrate them in your upstream project)
 
-## I want to contribute a repository, how can I do it?
+## I'm a Zig user and I want to contribute a repository, how can I do it?
 
 Ping [kristoff](https://github.com/kristoff-it) and ask to be added to the organization.
 
