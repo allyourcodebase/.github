@@ -1,5 +1,5 @@
 ## All Your Codebase
-...[are belong to Ziguanas](https://www.youtube.com/watch?v=qItugh-fFgg), but we'd also be delighted to give them back!
+...[are belong to us](https://www.youtube.com/watch?v=qItugh-fFgg), but we'd be delighted to give them back!
 
 ## What is this organization?
 We package C/C++ projects for the [Zig build system](https://ziglang.org/learn/build-system/) so that you can reliably 
