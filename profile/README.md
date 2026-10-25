@@ -77,7 +77,7 @@ Once you're done with the checklist above, please give your repo an appropriate 
 Packages provided by this organization adhere to these rules:
 
 - No LLMs as part of the workflow in any way, shape, or form. These are organic, gluten-free, free-range, vegan packages.
-- No dependencies outside AYCB or ziglang official.
+- No dependencies other than AYCB, ziglang official, or official upstream.
 - Other than the third-party code being packaged within AYCB, all code must be written in Zig, including tools used to generate other code. In other words if you want a script to help you with packaging and version upgrades, that script must be written in Zig.
 
 If you'd rather not follow these rules, that's OK, but then please don't join this org.
