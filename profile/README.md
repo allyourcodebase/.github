@@ -71,3 +71,13 @@ Here are some ground rules to be able to contribute a repo:
 6. You must have interest in doing occasional maintainership work to update your build script when a new version of the upstream project is released.
 
 Once you're done with the checklist above, please give your repo an appropriate set of tags for ease of discoverability (eg `zig`, `zig-package`).
+
+## Organization Code of Conduct
+
+Packages provided by this organization adhere to these rules:
+
+- No LLMs as part of the workflow in any way, shape, or form. These are organic, gluten-free, free-range, vegan packages.
+- No dependencies outside AYCB or ziglang official.
+- Other than the third-party code being packaged within AYCB, all code must be written in Zig, including tools used to generate other code. In other words if you want a script to help you with packaging and version upgrades, that script must be written in Zig.
+
+If you'd rather not follow these rules, that's OK, but then please don't join this org.
